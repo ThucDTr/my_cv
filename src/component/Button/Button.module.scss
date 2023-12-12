@@ -1,0 +1,60 @@
+.wrapper{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px;
+    background-color: #fff;
+    color: #000;
+    .title{
+        font: 14px Raleway;
+    }
+}
+
+.primary {
+    color: #fff;
+    background-color: #626262;
+    min-width: 100px;
+
+}
+.icon + .title,
+.title + .icon {
+    margin-left: 10px;
+}
+
+.outline{
+    border-top: 1.5px solid #ffb156;
+    width: 100%;
+    padding: 10px;
+
+    .title{
+        font: 14px Raleway;
+        font-weight: 700;
+    }
+}
+
+.text{
+    border: 1.5px solid #ffb156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title{
+        font: 14px Raleway;
+    }
+    
+}
+.icon{
+    padding-right: 10px;
+    width: 13px;
+    height: 13px;
+}
+
+
+.middle{
+    width: 100%;
+    height: 32px;
+}
+
+.small{
+    width: 90px;
+    height: 30px;
+}
